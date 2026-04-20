@@ -13,13 +13,13 @@ int main(void)
         count ++;
         
         if (guess>answer){
-            printf("%d>? %d 보다 낮습니다\n", guess, guess);
+            printf("%d>?\n", guess, guess);
         }
         else if (guess<answer){
-            printf("%d<? %d 보다 높습니다\n", guess, guess);
+            printf("%d<?\n", guess, guess);
         }
         else{
-            printf("%d==? %d 정답입니다\n", guess, guess);
+            printf("%d==?\n", guess, guess);
         }
     }while (guess != answer);
     
