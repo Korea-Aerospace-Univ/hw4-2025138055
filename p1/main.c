@@ -19,7 +19,7 @@ int main(void)
             printf("%d<?\n", guess);
         }
         else{
-            printf("%d==?\n", guess, guess);
+            printf("%d==?\n", guess);
         }
     }while (guess != answer);
     
