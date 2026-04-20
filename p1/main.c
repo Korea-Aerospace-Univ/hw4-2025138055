@@ -21,7 +21,7 @@ int main(void)
         else{
             printf("%d==?\n", guess);
         }
-    }while (guess != answer);
+    }while (answer!= guess);
     
     printf("시도횟수는 %d회\n", count);
    
