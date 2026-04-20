@@ -22,7 +22,7 @@ int main(void)
             printf("%d==?\n", guess);
         }
     }while (answer!= guess);
-    printf("시도횟수는 %d회\n", count);
+    printf("%d\n", count);
    
     return 0;
 }
