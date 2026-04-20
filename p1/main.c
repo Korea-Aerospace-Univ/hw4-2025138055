@@ -13,10 +13,10 @@ int main(void)
         count ++;
         
         if (guess>answer){
-            printf("%d>?\n", guess, guess);
+            printf("%d>?\n", guess);
         }
         else if (guess<answer){
-            printf("%d<?\n", guess, guess);
+            printf("%d<?\n", guess);
         }
         else{
             printf("%d==?\n", guess, guess);
